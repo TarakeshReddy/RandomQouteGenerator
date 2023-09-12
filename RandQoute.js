@@ -39,10 +39,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
   
-    // Event listener for the "New Quote" button
-    newQuoteButton.addEventListener("click", updateQuote);
+   
+    newQuoteButton.addEventListener("click", updateQuote);  // Event listener for the "New Quote" button
   
-    // Initial update
     updateQuote();
   });
   
